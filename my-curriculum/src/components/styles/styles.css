@@ -1,16 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 .model {
-    margin: 0;
-    padding: 0;
     background: #ffffff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 8px 8px 8px 8px;  
-    /* overflow: hidden;
-    height: auto; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 8px 8px 8px 8px;   */
+     /* overflow: hidden; */
+    /*height: auto; */
   }
   
   ul{
       list-style: none;
-  }
+    }
 
 
   .model_header {
@@ -18,54 +23,97 @@
     height: 300px;
     background: #33B4FF;
     display: flex;
-    position:absolute;
+    overflow: hidden;
+    position:relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 8px 8px 8px 8px;  
+    border-radius: 0px 0px 0px 8px;  
   }
   
+  .model_section-name {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+    font-size: 4rem;
+    
+  }
+
 .model_header .job{
-    width:  700px;
+    width:  350px;
     height: 80px;
     border-radius: 0;
     box-shadow: 0 0 0 0;
+    text-align: center;
     display:flex;
-    justify-content:flex-start;
-    flex-flow: initial;
-    position: relative;
-    top: 7rem;
-    right: 29rem;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    top: 6rem;
+    right: 50rem;
     font-size: 1.5rem;
 }
 
 
-
-  .model_section-name {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    color: white;
-    justify-content: flex-start;
-    flex-flow: row;
-    position: relative;
-    top: 2rem;
-    right: -25rem;
-    font-size: 4rem;
-    
-  }
-  
   .model_avatar {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     display: flex;
     margin: 0%;
     padding: 0;
-    justify-content: flex-end;
-    flex-flow: initial;
-    position: relative;
-    top: 3rem;
-    right: 35rem;
+    justify-content: center;
+    position: absolute;
+    top: 2rem;
+    right: 75rem;
   }
+
+.model_header .dataList{
+  width: 60%;
+  height: 50px;
+  background: none;
+  border-radius: 0;
+  box-shadow: 0 0 0 0;
+  list-style: none;
+  display: grid;
+  position:absolute;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  top: 10rem;
+  left: 28rem;
+
+}
+
+.model_header .dataList ul{
+  margin: 20px;
+  color:#ffffff;
+  display: flex;
+  font-size: 1.3rem;
+  text-align:center;
+  align-items: center;
+}
+
+.model_header .direction{
+  width: 60%;
+  height: 50px;
+  color:#ffffff;
+  background: none;
+  border-radius: 0;
+  box-shadow: 0 0 0 0;
+  display: flex;
+  position:absolute;
+  align-items: center;
+  font-size: 1.3rem;
+  top: 14rem;
+  right: 11rem;
+
+}
+
 
 
 

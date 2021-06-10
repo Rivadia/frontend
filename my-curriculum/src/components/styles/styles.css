@@ -7,10 +7,7 @@
 
 .model {
     background: #ffffff;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 8px 8px 8px 8px;   */
-     /* overflow: hidden; */
-    /*height: auto; */
+  
   }
   
   ul{
@@ -28,6 +25,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     border-radius: 0px 0px 0px 8px;  
   }
+
   
   .model_section-name {
     width: 100%;
@@ -114,7 +112,17 @@
 
 }
 
-
+.profile_model_container{
+  width: 100%;
+  height: 300px;
+  margin-top: 1.2rem;
+  background: #33B4FF;
+  display: flex;
+  overflow: hidden;
+  position:relative;
+  box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 0px 0px 8px;  
+}
 
 
   .badge_section-info {

@@ -1,0 +1,20 @@
+{
+  "name": "platzimasterfront",
+  "version": "1.0.0",
+  "description": "Platzi Master Frontend test",
+  "main": "index.js",
+  "scripts": {
+    "test": "platziM"
+  },
+  "repository": {
+    "type": "git",
+    "url": "platziMasterfront"
+  },
+  "keywords": [
+    "\"Test\"",
+    "\"React\"",
+    "\"Master\""
+  ],
+  "author": "Josue Rivas Diaz",
+  "license": "ISC"
+}

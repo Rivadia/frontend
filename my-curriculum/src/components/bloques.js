@@ -102,7 +102,12 @@ class Model extends React.Component{
           <div className="language_container">
 
 
-          <ProfileModel encabezado="Languaje" />
+          <ProfileModel encabezado="Language"
+            parrafo="Inglés"
+
+            parrafoprofile="language_parrafo"
+          
+          />
 
 
           </div>

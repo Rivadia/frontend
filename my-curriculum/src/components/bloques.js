@@ -27,9 +27,85 @@ class Model extends React.Component{
         <body>
           
           <div className= "profile_model_container">
-          <ProfileModel encabezado="Perfil" parrafo="Soy artista visual, diseñador y desarrollador de juegos, actualmente me dedico a forma jóvenes universitarios para ser futuros desarrolladores dentro de la industria del videojuego y la realidad aumentada. Apasionado de la tecnología y buscando abrirse camino en este mundo de formación acelerada" />
+          <ProfileModel    headerprofile="profile_model_header"  parrafoprofile="profile_model_parrafo" 
+                 encabezado="Profile" parrafo="Soy artista visual, diseñador y desarrollador de juegos, actualmente me dedico a forma jóvenes universitarios para ser futuros desarrolladores dentro de la industria del videojuego y la realidad aumentada. Apasionado de la tecnología y buscando abrirse camino en este mundo de formación acelerada" />
           </div>
-             
+
+          <div className = "experience_model_container">
+          <ProfileModel    headerprofile="experience_model_header"  
+                 encabezado="Experience"
+                 listaprofile="experience_lista_profile" 
+                 encabezado1="Docente (febrero 2017 a la fecha)"
+                 encabezado2="Docente (enero 2015 a febrero 2017)"
+                 encabezado3="Desarrollador de videojuegos (abril 2012 a la 2015)"
+                 subencabezado1="UNITEC campus Atizapán (Educación Superior)"
+                 subencabezado2="Colegio Francés Hidalgo (Educación Media y Media superior)"
+                 text1="Mediante formación práctica y centrada en lo que la industria requiere, enseño a jóvenes de la carrera Diseño, animación y arte digital programación, centrado en desarrollo de videojuegos y realidad aumentada. Además, apoyamos a la estructuración del programa de formación en videojuegos en el campus."
+                 text2="Formar a jóvenes de secundaria y preparatoria en artes tradicionales, diseño, comunicación y robótica, para obtener una formación integral en ciencias y humanidades."
+                 text3="Desarrollo de videojuegos para pc y móviles de forma independiente, centrado en la generación de una buena experiencia de usuario y entretenimiento"
+
+                 listaText="experience_list_TextList"
+                 
+                 
+                 
+                 />
+
+          </div>
+          
+          <div className="academic_container">
+
+
+          <ProfileModel encabezado="Academic" 
+            parrafo="Licencias en Artes Visuales (UNAM)"
+            parrafoprofile="academic_parrafo"
+          
+          />
+
+
+          </div>
+          <div className="interest_container">
+
+
+          <ProfileModel encabezado="Interest" 
+          
+             parrafo="Jugar y desarrollar videojuegos, las artes marciales chinas,
+             series de terror, peliculas de zombies, leer sobre programación, las
+             novelas de Terry prachet, enseñar sobre desarrollo de tecnología, 
+             los comics de cualquier genero, jugar con mis hijos."
+             parrafoprofile="interest_parrafo"
+          
+          
+          />
+
+
+          </div>
+
+          <div className="skills_container">
+
+
+          <ProfileModel encabezado="Skills"
+          listaprofile="skills_list_container"
+          encabezado1="Lenguajes de programación"
+          encabezado2="Software"
+          encabezado3="Hardware"
+          text1="C#, C++,  HTML5, CSS3,JavaScript y C."
+          text2="Unity 3D, Maya, Blender, Photoshop, Affinity Design, Visual Studio.
+          Control de versions con git y github
+          "
+          text3="Lego Mindstorm y Arduino, Reparación, armado y mantenimiento    
+          de equipo de cómputo
+          "
+          />
+
+
+          </div>
+          <div className="language_container">
+
+
+          <ProfileModel encabezado="Languaje" />
+
+
+          </div>
 
 
         </body>
